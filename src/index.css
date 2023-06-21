@@ -1,0 +1,128 @@
+:root {
+    --main-color: hwb(0 66% 32%);
+    --common-color: #646472;
+}
+
+html {
+    background-color: var(--main-color);
+}
+
+.layout {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--main-color);
+    box-sizing: border-box;
+}
+
+.link {
+    cursor: pointer;
+}
+
+/* Start of NavBar */
+.logoimg {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.navbar {
+    background-color: var(--common-color);
+}
+
+.navinput {
+    color: red;
+}
+/* End of NavBar */
+
+/* Start of MoviesCard */
+.cardimg {
+    height: 16rem;
+}
+
+.cardbody {
+    width: 18rem;
+    margin: 0 auto;
+}
+
+/* End of MoviesCard */
+/* Start of ErrorPage */
+.error-page {
+    margin-top: 1.5rem;
+    height: 100vh;
+    text-align: center;
+}
+
+.error-image {
+    width: 35rem;
+    margin: -5rem auto;
+    display: block;
+}
+
+.error-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: rgb(205 34 34);
+}
+
+.error-page p {
+    font-size: 1.5rem;
+    color: rgb(197 68 81);
+}
+
+/* End of ErrorPage */
+/* Strat of MovieDetails */
+
+.card-detalis {
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #f8f8f862;
+    padding: 1rem;
+
+}
+
+.img-movie {
+    height: 360px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.card-text-details {
+    color: #555555;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 49px;
+}
+
+.card-story {
+    margin-top: 1rem;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #f8f8f862;
+    padding: 1rem;
+}
+
+.card-text-story {
+    color: #555555;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 32px;
+}
+
+.card-text-title {
+    color: #555555;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 49px;
+}
+
+@media (max-width: 600px) {
+    .card-detalis {
+        flex-direction: column;
+    }
+
+    .card-text-story {
+        text-align: left;
+    }
+}
+
+/* End of MovieDetails */

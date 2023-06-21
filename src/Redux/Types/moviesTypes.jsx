@@ -1,0 +1,10 @@
+export const LANGUAGE = "LANGUAGE"
+export const GET_MOVIES = "GET_MOVIES"
+export const FILTER_MOVIES = "FILTER_MOVIES"
+export const GET_MOVIES_BY_GNRES = "GET_MOVIES_BY_GNRES"
+export const SEARCH_FOR_MOVIES = "SEARCH_FOR_MOVIES"
+export const allMoviesApi = `https://api.themoviedb.org/3/trending/movie/day?api_key=dd61077b2f5bb0b4c238ff2ee9c392b3`
+export const popularMoviesApi = `https://api.themoviedb.org/3/movie/popular?api_key=dd61077b2f5bb0b4c238ff2ee9c392b3`
+export const topRatedMoviesApi = `https://api.themoviedb.org/3/movie/top_rated?api_key=dd61077b2f5bb0b4c238ff2ee9c392b3`
+export const genresApi = `https://api.themoviedb.org/3/genre/movie/list?api_key=dd61077b2f5bb0b4c238ff2ee9c392b3`
+export const searchApi = `https://api.themoviedb.org/3/search/movie?api_key=dd61077b2f5bb0b4c238ff2ee9c392b3&query=`
